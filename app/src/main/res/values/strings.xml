@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bangle System</string>
+    <string name="splash_appName">Bangle Management\nSystem</string>
+    <string name="splash_powerBy">Powered by:</string>
+</resources>

@@ -1,0 +1,119 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.dotinfiny.banglesystem"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    buildFeatures {
+        dataBinding true
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$version_kotlin"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.preference:preference:1.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+
+    // Core with Ktx
+    implementation "androidx.core:core-ktx:$version_core"
+    // Kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$version_kotlin"
+    // Constraint Layout
+    implementation "androidx.constraintlayout:constraintlayout:$version_constraint_layout"
+    // ViewModel and LiveData
+    implementation "androidx.lifecycle:lifecycle-extensions:$version_lifecycle_extensions"
+    // Use viewModelScope from lifecycle-viewmodel-ktx
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$version_lifecycle_extensions"
+    // Navigation
+    implementation "android.arch.navigation:navigation-fragment-ktx:$version_navigation"
+    implementation "android.arch.navigation:navigation-ui-ktx:$version_navigation"
+    //Recyclerview
+    implementation "androidx.recyclerview:recyclerview: $version_recyclerview"
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit: $version_retrofit"
+
+    implementation 'com.squareup.retrofit2:converter-scalars:2.5.0'
+
+    implementation "com.squareup.retrofit2:converter-moshi:$version_retrofit"
+    // Retrofit Coroutines Support
+    implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$version_retrofit_coroutines_adapter"
+    // Coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$version_kotlin_coroutines"
+
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$version_kotlin_coroutines"
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$version_glide"
+    // Material design components
+    implementation "com.google.android.material:material:$version_material"
+    //multi dex
+    implementation "androidx.multidex:multidex:$version_multi_dex"
+    // Logging
+    implementation "com.jakewharton.timber:timber:$version_timber"
+    //Room database
+    implementation "androidx.room:room-runtime:$version_room"
+
+    kapt "androidx.room:room-compiler:$version_room"
+
+    implementation "androidx.room:room-ktx:$version_room"
+
+    // Kotlin + coroutines
+    implementation "androidx.work:work-runtime-ktx:$version_work_manager"
+//    // Joda time library for dealing with time
+//    implementation "joda-time:joda-time:$version_joda"
+    //lottie animation
+    implementation 'com.airbnb.android:lottie:3.4.0'
+    //viewpager2
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    implementation 'com.kaopiz:kprogresshud:1.2.0'
+
+    implementation 'androidx.activity:activity-ktx:1.1.0'
+
+    implementation 'androidx.fragment:fragment-ktx:1.2.5'
+
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+
+    //Hawk
+    implementation "com.orhanobut:hawk:2.0.1"
+
+
+}

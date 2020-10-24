@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="splashTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/text_size_thirty_four</item>
+        <item name="fontFamily">@font/circular_std_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="normalTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/text_size_fifteen</item>
+        <item name="fontFamily">@font/circular_std_book</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="linkTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/text_size_fifteen</item>
+        <item name="fontFamily">@font/circular_std_book</item>
+        <item name="android:textColor">@color/text_color_link</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

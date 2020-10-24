@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="size_one">2dp</dimen>
+    <dimen name="size_two">4dp</dimen>
+    <dimen name="size_three">6dp</dimen>
+    <dimen name="size_four">7dp</dimen>
+    <dimen name="size_five">10dp</dimen>
+    <dimen name="size_six">12dp</dimen>
+    <dimen name="size_seven">14dp</dimen>
+    <dimen name="size_eight">16dp</dimen>
+    <dimen name="size_ten">20dp</dimen>
+    <dimen name="size_twelve">24dp</dimen>
+    <dimen name="size_fifteen">30dp</dimen>
+    <dimen name="size_sixteen">34dp</dimen>
+    <dimen name="size_eighteen">36dp</dimen>
+    <dimen name="size_twenty">40dp</dimen>
+    <dimen name="size_twenty_four">45dp</dimen>
+    <dimen name="size_twenty_five">50dp</dimen>
+    <dimen name="size_twenty_eight">56dp</dimen>
+    <dimen name="size_thirty">60dp</dimen>
+    <dimen name="size_thirty_five">70dp</dimen>
+    <dimen name="size_thirty_six">72dp</dimen>
+    <dimen name="size_fourty">80dp</dimen>
+    <dimen name="size_fourty_five">90dp</dimen>
+    <dimen name="size_fourty_eight">90dp</dimen>
+    <dimen name="size_fourty_nine">90dp</dimen>
+    <dimen name="size_fifty">100dp</dimen>
+    <dimen name="size_fifty_five">110dp</dimen>
+    <dimen name="size_sixty">120dp</dimen>
+    <dimen name="size_sixty_five">130dp</dimen>
+    <dimen name="size_seventy">140dp</dimen>
+    <dimen name="size_eighty">160dp</dimen>
+    <dimen name="size_ninety">180dp</dimen>
+    <dimen name="size_hundred">200dp</dimen>
+    <dimen name="size_hundred_twenty">240dp</dimen>
+    <dimen name="size_hundred_thirty">260dp</dimen>
+    <dimen name="size_hundred_fourty">280dp</dimen>
+    <dimen name="size_hundred_eighty">360dp</dimen>
+    <dimen name="size_two_hundred_ten">420dp</dimen>
+    <dimen name="size_two_hundred_fifteen">430dp</dimen>
+    <dimen name="size_two_hundred_twenty">440dp</dimen>
+    <dimen name="size_two_hundred_fifty">460dp</dimen>
+    <dimen name="size_two_hundred_ninty">580dp</dimen>
+    <dimen name="size_four_hundred_sixty">920dp</dimen>
+
+    <dimen name="text_size_eleven">16sp</dimen>
+    <dimen name="text_size_twelve">20sp</dimen>
+    <dimen name="text_size_thirteen">26sp</dimen>
+    <dimen name="text_size_fifteen">30sp</dimen>
+    <dimen name="text_size_sixteen">30sp</dimen>
+    <dimen name="text_size_seventeen">28sp</dimen>
+    <dimen name="text_size_eighteen">34sp</dimen>
+    <dimen name="text_size_twenty">40sp</dimen>
+    <dimen name="text_size_twenty_one">41sp</dimen>
+    <dimen name="text_size_twenty_two">42sp</dimen>
+    <dimen name="text_size_twenty_four">44sp</dimen>
+    <dimen name="text_size_twenty_five">48sp</dimen>
+    <dimen name="text_size_thirty">48sp</dimen>
+    <dimen name="text_size_thirty_four">50sp</dimen>
+    <dimen name="text_size_thirty_six">52sp</dimen>
+
+    <dimen name="theme_container">340dp</dimen>
+
+    <dimen name="text_size_app_name">80sp</dimen>
+
+    <dimen name="aya_no_bg_size">40dp</dimen>
+
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">120dp</dimen>
+
+    <dimen name="dialog_width">660dp</dimen>
+    <dimen name="dialog_height">800dp</dimen>
+    <dimen name="dialog_btn_width">180dp</dimen>
+
+    <dimen name="about_img_width">530dp</dimen>
+    <dimen name="about_img_height">530dp</dimen>
+    <dimen name="about_img_margin_top">90dp</dimen>
+    <dimen name="about_img_margin_bottom">10dp</dimen>
+    <dimen name="about_img_margin_left">30dp</dimen>
+    <dimen name="about_img_margin_right">30dp</dimen>
+    <dimen name="about_layout_margin">100dp</dimen>
+
+</resources>
